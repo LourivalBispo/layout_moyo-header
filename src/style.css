@@ -1,12 +1,15 @@
 /* Reset de margens padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   --blue: #007bff;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
   font-family: Roboto, sans-serif;
 }
 
