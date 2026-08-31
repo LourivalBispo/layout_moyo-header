@@ -63,6 +63,13 @@ const config = {
   engine: 'puppet',
   onBeforeScript: 'puppet/onBefore.js',
   onReadyScript: 'puppet/onReady.js',
+  puppeteerLaunchConfig: {
+    args: [
+      '--no-sandbox',
+      '--disable-setuid-sandbox',
+      '--disable-gpu',
+    ],
+  },
 };
 
 module.exports = config;
