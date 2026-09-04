@@ -1,5 +1,9 @@
 /* Reset de margens padrão */
-* {
+html,
+body,
+ul,
+li,
+a {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -22,7 +26,7 @@ body {
 }
 
 /* Logo */
-.header__logo img {
+.header__logo-image {
   height: 40px;
 }
 

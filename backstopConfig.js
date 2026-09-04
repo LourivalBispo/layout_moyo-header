@@ -2,6 +2,7 @@
 
 const config = {
   id: 'moyo-header',
+  fileNameTemplate: '{scenarioLabel}_{viewportLabel}',
   viewports: [
     {
       name: '1024px',
@@ -16,18 +17,18 @@ const config = {
   ],
   scenarios: [
     {
-      label: 'Header tag',
+      label: 'Header',
       url: 'http://localhost:8080/index.html',
       referenceUrl: '',
-      selectors: ['header'],
+      selectors: ['.header'],
       readySelector: 'body',
       delay: 1000,
     },
     {
-      label: 'Nav tag',
+      label: 'Nav',
       url: 'http://localhost:8080/index.html',
       referenceUrl: '',
-      selectors: ['nav'],
+      selectors: ['.nav'],
       readySelector: 'body',
       delay: 1000,
     },
